@@ -1,5 +1,8 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+
+/* making body margin :0 so that,
+ elements can extend to corner of screen */
+ 
+body{
+    margin: 0px;
+    font-family: 'Raleway';
 }

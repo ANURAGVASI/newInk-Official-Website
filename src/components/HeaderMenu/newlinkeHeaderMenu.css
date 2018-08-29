@@ -1,0 +1,56 @@
+.newlink-header-div{
+    height: 50px;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+.header-item-span{
+    margin-left: 20px;
+}
+
+.test{
+    height: 1200px;
+}
+
+.logo-text{
+    color: white;
+}
+
+.menu-expand-btn-custom{
+    color: black;
+    border: 1px solid red;
+}
+
+.logo-link{
+    color: white;
+    font-size: 11px;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+}
+
+/* to change defalut hover beahaviour of navbar in bootstrap */
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+    color: white;
+}
+
+.menu-getintouch-btn{
+    margin-top: -6px ;
+    margin-right: 100px;
+    margin-left: 20px;
+    font-family: 'Raleway';
+    /* height: 35px; */
+}
+
+.test{
+    height: 1000px;
+}
+
+@media screen and (max-width: 1000px) {
+    .menu-getintouch-btn{
+        margin-right: 70px;
+    }
+}
