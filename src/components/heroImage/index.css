@@ -1,15 +1,40 @@
+
 .heroimage-main-div{
-    background-image: url("../../images/slider.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* position: relative; */
     height: 90vh;
+    border: 1px solid red;
+    background-image: url("../../images/slider.jpg");
+    background-size: cover;
+    background-position: center;
 }
+
+.heroimage-maintext-p{
+    color: white;
+    font-size: 45px;
+    margin-top:200px;
+    text-align: center;
+}
+
+.heroimage-maintext-wordchanger{
+    color: rgb(33, 204, 33);
+    opacity: 0;
+    /* animation: wordAnimate 2s infinite; */
+    /* font-size: 45px; */
+    margin-left: 10px;
+    
+}
+
+
+@keyframes wordAnimate{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
 
 @media screen and (max-width: 1000px) {
     .heroimage-main-div{
-        height: 80vh;
+        /* height: 80vh;
+        transform: scaleY(100px);
+        transition-duration: 1000; */
     }
 }
 
@@ -19,6 +44,4 @@
     }
 }
 
-.test{
-    height: 2000px;
-}
+

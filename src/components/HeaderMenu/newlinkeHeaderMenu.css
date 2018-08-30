@@ -1,9 +1,10 @@
 .newlink-header-div{
-    height: 50px;
+    height: 60px;
     color: white;
     text-align: center;
     position: fixed;
     width: 100%;
+    background-color: black;
 }
 
 .header-item-span{
@@ -25,8 +26,9 @@
 
 .logo-link{
     color: white;
-    font-size: 11px;
+    font-size: 13px;
     letter-spacing: 0.7px;
+    font-weight: 500;
     text-transform: uppercase;
 }
 

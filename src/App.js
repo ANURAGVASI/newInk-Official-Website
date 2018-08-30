@@ -8,8 +8,8 @@ class App extends Component {
     return(
       // <HeaderMenu />
       <div>
+      <HeaderMenu />
       <HeroImage />
-        hey i m here
       </div>
     )
   }
