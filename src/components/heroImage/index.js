@@ -7,26 +7,28 @@ class HeroImage extends React.Component{
     constructor(props){
         super(props);
         this.state={
-            heroImageWords: ["Creative", "Awsome", "Disciplined"],
+            heroImageWords: ["Creative.", "Awsome.", "Disciplined."],
             heroImageWordIndex: 0
         }
     }
 
-
     componentWillUpdate(){
-        document.getElementsByClassName("heroimage-maintext-wordchanger")[0].style.opacity=0;
-        
+        $( "#heroimage-maintext-wordchangerid" ).animate({
+            opacity: 0,
+          }, 0)
     }
 
     componentDidUpdate(){
-        // $(".heroimage-maintext-wordchanger").css("color","red");
-        $(".heroimage-maintext-wordchanger").animate({
-            opacity: 1
-        }, 2000, () => {
-            document.getElementsByClassName("heroimage-maintext-wordchanger")[0].style.opacity=0;
-        });
+        $( "#heroimage-maintext-wordchangerid" ).animate({
+            opacity: 1,
+          }, 800, function() {
+            // Animation complete.
+           
+          });
     }
     
+    
+
     changeWord = (index) => {
         if(index===2){
             index=0;
@@ -40,23 +42,29 @@ class HeroImage extends React.Component{
         
         const {heroImageWords, heroImageWordIndex } = this.state;
         return(
-            <div  className="heroimage-main-div" >
-                    <div className="heroimag-text-div" >
-                        <p className="heroimage-maintext-p" >
-                            We Are 
-                            
-                            <span className="heroimage-maintext-wordchanger">
-                                {heroImageWords[heroImageWordIndex]}
-                            </span>
-                           <div style={{display:"none"}} >{
-                                setTimeout(() => {
-                                    this.changeWord(heroImageWordIndex);
-                                }, 2000)
-                           }
-                           </div>
-                           
-                        </p>
-                    </div>
+            <div className="heroimage-main-div" >
+                <Header />
+                <p className="heroimage-maintext-p" >
+                    We Are
+                    <span id="heroimage-maintext-wordchangerid" className="heroimage-maintext-wordchanger" >
+                        {heroImageWords[heroImageWordIndex]}
+                    </span>
+                </p>
+
+                <p className="heroimage-subtext-p" > Empowering Digital Solutions for Tommorow's World. Empowering Digital Solutions for Tommorow's World.
+                Empowering Digital Solutions for Tommorow's World </p>
+
+                <p className="heroimage-downarrow-p" ><i className="fa fa-angle-double-down" aria-hidden="true"></i></p>
+
+
+                {/* change word for every 4 seconds */}
+                <div style={{display:"none"}} >
+                   {
+                        setTimeout(() => {
+                            this.changeWord(heroImageWordIndex)
+                        }, 4000)
+                   }
+                </div>
             </div>
         )
     }
