@@ -6,14 +6,18 @@
 .ourservices-heading-h1{
     text-align: center;
     font-size: 30px;
-    font-family: 'Roboto Slab';
-    font-weight: 600;
+    /* font-family: 'Roboto Slab'; */
+    font-family: 'Quicksand'
+    /* font-weight: 100; */
 }
 .ourservices-description-div{
     margin-top: 100px;
+    overflow: auto;
 }
 .webdev-heading-p{
     text-align: center;
+    font-size: 27px;
+    font-weight: 300;
 }
 
 .webdev-points-div{
@@ -44,4 +48,8 @@
 .service-point-div{
     width: 95%;
     margin-left: 55px;
+}
+
+.estimage{
+    margin-left: 110px;
 }

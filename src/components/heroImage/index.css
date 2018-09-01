@@ -1,8 +1,10 @@
 
  .heroimage-main-div{
-    background-image: url("../../images/slider.jpg");
+    /* background-image: url("../../images/slider2.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: center; */
+    /* background-color: {linea} */
+    background-color: rgba(0, 0, 0, 0.904);
     height: 90vh;
     overflow: hidden;
 }
@@ -34,21 +36,44 @@
 .heroimage-maintext-p{
     font-size: 55px;
     color: white;
-    text-align: center;
+    /* text-align: center; */
     margin-top: 150px;
     /* font-weight: bold; */
     font-family: 'Raleway';
+    margin-left: 100px;
+    /* padding-right: 700px; */
+    line-height: 65px;
     /* padding-left:70px; */
 }
 .heroimage-subtext-p{
-    font-size: 25px;
-    color: rgba(255, 255, 255, 0.904);
-    text-align: center;
-    padding-left:250px;
-    padding-right: 250px;
-    margin-top: 40px;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.911);
+    /* text-align: center; */
+    /* padding-left:250px;*/
+    /* padding-right: 700px;  */
+    margin-left: 100px;
+    /* margin-top: 10px; */
     word-spacing: 1px;
-    line-height:40px;
+    line-height:30px;
+}
+
+.heroimage-learnmore-div{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.heroimage-learnmore-btn{
+    padding: 7px;
+    background-color: rgba(238, 23, 23, 0.781);
+    color: white;
+    font-size: 12px;
+    letter-spacing: 1px;
+    border: none;
+    /* margin-top: 20px; */
+}
+
+.heroimage-sideimage-img{
+    margin-top: 140px;
 }
 
 .heroimage-downarrow-p{
@@ -68,13 +93,6 @@
     /* border-radius: 50% 50% 50% 50%; */
 }
 
-.heroimage-learnmore-btn{
-    margin-top: 50px;
-    /* margin: 0 auto; */
-    position:relative;
-    /* top:50%;  */
-    left:46%;
-}
 
 .heroimage-maintext-wordchanger{
     color: rgb(33, 209, 33);
@@ -94,14 +112,20 @@
         /* height: 80vh;
         transform: scaleY(100px);
         transition-duration: 1000; */
+        height: auto;
     }
     .heroimage-maintext-p{
         font-size: 40px;
         margin-top: 100px;
     }
+    .heroimage-sideimage-img{
+        margin-top: 50px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
     .heroimage-subtext-p{
-        padding-left:130px;
-        padding-right: 130px;
+        /* padding-left:130px;
+        padding-right: 130px; */
         
     }
 }
