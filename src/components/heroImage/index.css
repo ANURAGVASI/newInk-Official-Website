@@ -1,13 +1,10 @@
 
+
  .heroimage-main-div{
-    /* background-image: url("../../images/slider2.jpg");
-    background-size: cover;
-    background-position: center; */
-    /* background-color: {linea} */
-    background-color: rgba(245, 245, 245, 0.945);
-    background-image: linear-gradient(to right, rgb(247, 247, 247) 10%, white 90%);
+    background-image: linear-gradient(to right, rgb(247, 247, 247) 10%, rgba(0, 0, 0, 0.082) ); 
     height:100vh;
     overflow: hidden;
+    
 }
 
 /*.mytest{
@@ -48,7 +45,7 @@
 }
 
 .p3{
-    animation: testanimate 2.5s;
+    animation: testanimate 2.3s;
 }
 
 
@@ -58,11 +55,12 @@
 }
 
 
+
 .heroimage-maintext-p{
     /* border: 1px solid red; */
-    font-size: 95px;
+    font-size: 85px;
     font-family: 'Raleway';
-    line-height: 100px;
+    line-height: 90px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.801);
     padding: 0px;
@@ -78,18 +76,24 @@
     font-family: 'Raleway';
     font-weight: 600;
     line-height: 30px;
+    animation: testanimate4 2.5s;
 }
 
+@keyframes testanimate4{
+    from{opacity: 0; margin-top: 160px}
+    to{opacity: 1; margin-top: 0px}
+}
 
 .heroimage-learnmore-div{
     margin-top: 20px;
 }
 
 .heroimage-learnmore-btn{
-    padding: 9px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background-color: rgb(163, 209, 55);
+    padding: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    /* background-color: rgb(244, 68, 56); */
+    /* border-radius: 17px; */
     color: rgb(255, 255, 255);
     font-size: 13px;
     letter-spacing: 1px;

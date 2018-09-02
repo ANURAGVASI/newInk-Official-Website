@@ -69,7 +69,7 @@ class HeroImage extends React.Component{
                         Empowering Digital Solutions for Tommorow's World </p>
 
                         <div className="heroimage-learnmore-div" >
-                            <button className="heroimage-learnmore-btn" >Learn more</button>
+                            <button className="btn btn-primary heroimage-learnmore-btn" >Learn more</button>
                         </div>
                     </div>
                 </div>
