@@ -4,8 +4,9 @@
     background-size: cover;
     background-position: center; */
     /* background-color: {linea} */
-    background-color: rgba(0, 0, 0, 0.904);
-    height: 90vh;
+    background-color: rgba(245, 245, 245, 0.945);
+    background-image: linear-gradient(to right, rgb(247, 247, 247) 10%, white 90%);
+    height:100vh;
     overflow: hidden;
 }
 
@@ -32,48 +33,84 @@
     animation-duration: 0.8s;
 } */
 
+.heroimage-taglines-div{
+    margin-top: 150px;
+    margin-left: 100px;
+    
+}
+
+.p1{
+    animation: testanimate 1s;
+}
+
+.p2{
+    animation: testanimate 2s;
+}
+
+.p3{
+    animation: testanimate 2.5s;
+}
+
+
+@keyframes testanimate{
+    from{opacity: 0; margin-left:-100px}
+    to{opacity: 1; margin-left: 0px}
+}
+
 
 .heroimage-maintext-p{
-    font-size: 55px;
-    color: white;
-    /* text-align: center; */
-    margin-top: 150px;
-    /* font-weight: bold; */
+    /* border: 1px solid red; */
+    font-size: 95px;
     font-family: 'Raleway';
-    margin-left: 100px;
-    /* padding-right: 700px; */
-    line-height: 65px;
+    line-height: 100px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.801);
+    padding: 0px;
+    margin-top: -20px;
     /* padding-left:70px; */
 }
+
 .heroimage-subtext-p{
-    font-size: 17px;
-    color: rgba(255, 255, 255, 0.911);
-    /* text-align: center; */
-    /* padding-left:250px;*/
-    /* padding-right: 700px;  */
-    margin-left: 100px;
-    /* margin-top: 10px; */
-    word-spacing: 1px;
-    line-height:30px;
+    animation: testanimate2 1s;
+    font-size: 18px;
+    color: rgba(58, 56, 56, 0.616);
+    /* letter-spacing: 1px; */
+    font-family: 'Raleway';
+    font-weight: 600;
+    line-height: 30px;
 }
 
+
 .heroimage-learnmore-div{
-    margin-left: 100px;
     margin-top: 20px;
 }
 
 .heroimage-learnmore-btn{
-    padding: 7px;
-    background-color: rgba(238, 23, 23, 0.781);
-    color: white;
-    font-size: 12px;
+    padding: 9px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(163, 209, 55);
+    color: rgb(255, 255, 255);
+    font-size: 13px;
     letter-spacing: 1px;
+    font-family: 'Raleway';
+    /* box-shadow: 0 0px 2px rgba(0,0,0,.3); */
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.089);
     border: none;
     /* margin-top: 20px; */
 }
 
+.heroimage-learnmore-btn:hover{
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.178);
+}
+
 .heroimage-sideimage-img{
-    margin-top: 140px;
+    
+    display: block;
+    margin: 0 auto;
+    margin-top: 160px;
+    height: 320px;
+    width:550px;
 }
 
 .heroimage-downarrow-p{
@@ -107,7 +144,7 @@
 }
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 995px) {
     .heroimage-main-div{
         /* height: 80vh;
         transform: scaleY(100px);
@@ -115,8 +152,8 @@
         height: auto;
     }
     .heroimage-maintext-p{
-        font-size: 40px;
-        margin-top: 100px;
+        text-align: center;
+        
     }
     .heroimage-sideimage-img{
         margin-top: 50px;
@@ -126,22 +163,49 @@
     .heroimage-subtext-p{
         /* padding-left:130px;
         padding-right: 130px; */
-        
+        text-align: center;
+    }
+    .heroimage-learnmore-btn{
+        display: block;
+        margin: 0 auto;
+    }
+    .heroimage-taglines-div{
+        margin-left: 0px;
+    }
+    .heroimage-sideimage-img{
+        margin-top: 30px;
+        height: 300px;
+        width:550px;
     }
 }
 
 @media screen and (max-width: 600px) {
     .heroimage-main-div{
-        height: 80vh;
+        height: auto;
     }
     .heroimage-maintext-p{
-        font-size: 30px;
-        margin-top: 80px;
+        text-align: center;
+        font-size: 72px;
+        padding: 0px;
+        margin-top: -40px;
     }
     .heroimage-subtext-p{
+        text-align: center;
         padding-left:10px;
         padding-right: 10px; 
         font-size: 20px;
+    }
+    .heroimage-learnmore-btn{
+        display: block;
+        margin: 0 auto;
+    }
+    .heroimage-taglines-div{
+        margin-left: 0px;
+    }
+    .heroimage-sideimage-img{
+        margin-top: 30px;
+        height: 100%;
+        width:100%;
     }
 }
 
