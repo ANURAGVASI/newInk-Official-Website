@@ -109,12 +109,24 @@
 }
 
 .heroimage-sideimage-img{
-    
     display: block;
     margin: 0 auto;
-    margin-top: 160px;
-    height: 320px;
+    margin-top: 60px;
+    height: 500px;
     width:550px;
+    animation: imageanimate 1s;
+}
+
+@keyframes imageanimate{
+    0% {
+        opacity: 0.25;
+      }
+      50% {
+        opacity: 0.5;
+      }
+      100% {
+        opacity: 1;
+      }
 }
 
 .heroimage-downarrow-p{

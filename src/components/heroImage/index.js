@@ -74,7 +74,8 @@ class HeroImage extends React.Component{
                     </div>
                 </div>
                 <div className="col-md-6 testmd"  >
-                    <img className="heroimage-sideimage-img"    src={require("../../images/lappis1.png")} />
+                    <img className="heroimage-sideimage-img"    src={require("../../images/responsiveness2.gif")} />
+                      
                 </div>
 
                 {/* <p className="heroimage-downarrow-p" ><i className="fa fa-angle-double-down" aria-hidden="true"></i></p> */}
