@@ -41,11 +41,11 @@
 }
 
 .p2{
-    animation: testanimate 2s;
+    animation: testanimate 1s;
 }
 
 .p3{
-    animation: testanimate 2.3s;
+    animation: testanimate 1s;
 }
 
 
@@ -76,7 +76,7 @@
     font-family: 'Raleway';
     font-weight: 600;
     line-height: 30px;
-    animation: testanimate4 2.5s;
+    animation: testanimate4 1.3s;
 }
 
 @keyframes testanimate4{
@@ -110,20 +110,21 @@
 
 .heroimage-sideimage-img{
     display: block;
-    margin: 0 auto;
+    margin-left:auto;
+    margin-right:auto;
     margin-top: 60px;
     height: 500px;
     width:550px;
-    animation: imageanimate 1s;
+    animation: imageanimate 2s;
 }
 
 @keyframes imageanimate{
     0% {
-        opacity: 0.25;
+        opacity: 0;
       }
-      50% {
+      /* 50% {
         opacity: 0.5;
-      }
+      } */
       100% {
         opacity: 1;
       }
