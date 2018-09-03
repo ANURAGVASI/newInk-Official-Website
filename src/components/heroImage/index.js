@@ -28,7 +28,6 @@ class HeroImage extends React.Component{
     }
     
     
-
     changeWord = (index) => {
         if(index===2){
             index=0;
@@ -46,27 +45,31 @@ class HeroImage extends React.Component{
                 <Header />
                 <div className="col-md-6 " >
                     <div className="heroimage-taglines-div" >
-                        <p className="heroimage-maintext-p p1" >
-                            Fresh.
-                            {/* <span id="heroimage-maintext-wordchangerid" className="heroimage-maintext-wordchanger" >
-                                {heroImageWords[heroImageWordIndex]}
-                            </span> */}
+                        <div className="heroimage-maintaglines-div" >
+                            <p className="heroimage-maintext-p " >
+                                Fresh.
+                                {/* <span id="heroimage-maintext-wordchangerid" className="heroimage-maintext-wordchanger" >
+                                    {heroImageWords[heroImageWordIndex]}
+                                </span> */}
+                            </p>
+                            <p className="heroimage-maintext-p">
+                                Beautiful.
+                                {/* <span id="heroimage-maintext-wordchangerid" className="heroimage-maintext-wordchanger" >
+                                    {heroImageWords[heroImageWordIndex]}
+                                </span> */}
+                            </p>
+                            <p className="heroimage-maintext-p" >
+                                Innovative.
+                                {/* <span id="heroimage-maintext-wordchangerid" className="heroimage-maintext-wordchanger" >
+                                    {heroImageWords[heroImageWordIndex]}
+                                </span> */}
+                            </p>
+                        </div>
+                        <p className="heroimage-subtext-p" > 
+                            Bestowed with high professionalism, we are capable of offering incredible web design,
+                            mobile application development, digital marketing services and 
+                            solutions to our valued clients overseas with complete contentment.
                         </p>
-                        <p className="heroimage-maintext-p p2" >
-                            Beautiful.
-                            {/* <span id="heroimage-maintext-wordchangerid" className="heroimage-maintext-wordchanger" >
-                                {heroImageWords[heroImageWordIndex]}
-                            </span> */}
-                        </p>
-                        <p className="heroimage-maintext-p p3" >
-                            Innovative.
-                            {/* <span id="heroimage-maintext-wordchangerid" className="heroimage-maintext-wordchanger" >
-                                {heroImageWords[heroImageWordIndex]}
-                            </span> */}
-                        </p>
-
-                        <p className="heroimage-subtext-p" > Empowering Digital Solutions for Tommorow's World. Empowering Digital Solutions for Tommorow's World.
-                        Empowering Digital Solutions for Tommorow's World </p>
 
                         <div className="heroimage-learnmore-div" >
                             <button className="btn btn-primary heroimage-learnmore-btn" >Learn more</button>
