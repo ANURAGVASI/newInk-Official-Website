@@ -26,8 +26,8 @@
 
 .logo-link{
     color: black;
-    font-size: 11px;
-    letter-spacing: 0.7px;
+    font-size: 13px;
+    letter-spacing: 0.6px;
     text-transform: uppercase;
 }
 
@@ -35,7 +35,7 @@
 .nav>li>a:focus, .nav>li>a:hover {
     text-decoration: none;
     background-color: transparent !important;
-    color: white;
+    color: rgb(235, 10, 10);
 }
 
 .menu-getintouch-btn{
