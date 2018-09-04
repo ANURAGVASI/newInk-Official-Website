@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Avatar from "@material-ui/core/Avatar";
+// import Avatar from "@material-ui/core/Avatar";
 import "./footer.css";
 
 class Footer extends Component {
