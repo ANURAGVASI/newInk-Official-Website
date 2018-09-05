@@ -12,7 +12,7 @@ class WhyChooseUs extends Component {
                     <div className="col-md-4" >
                         <div className="chooseus-featureicon-div" >
                             {/* font awsome icon */}
-                            <i class="fa fa-th-large" aria-hidden="true"></i>
+                            <i class="fa fa-television" aria-hidden="true"></i>
                         </div>
                         <div className="chooseus-feature-div" >
                             <p className="chooseus-featureheading-p" >MODULAR DESIGN</p>
@@ -22,7 +22,7 @@ class WhyChooseUs extends Component {
                     <div className="col-md-4" >
                             <div className="chooseus-featureicon-div" >
                             {/* font awsome icon */}
-                            <i class="fa fa-th-large" aria-hidden="true"></i>
+                            <i class="fa fa-refresh" aria-hidden="true"></i>
                             </div>
                             <div className="chooseus-feature-div">
                                 <p className="chooseus-featureheading-p">MODULAR DESIGN</p>
@@ -32,7 +32,7 @@ class WhyChooseUs extends Component {
                     <div className="col-md-4" >
                         <div className="chooseus-featureicon-div" >
                         {/* font awsome icon */}
-                        <i class="fa fa-th-large" aria-hidden="true"></i>
+                        <i class="fa fa-id-card" aria-hidden="true"></i>
                         </div>
                         <div className="chooseus-feature-div">
                             <p className="chooseus-featureheading-p">MODULAR DESIGN</p>
