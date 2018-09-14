@@ -1,16 +1,12 @@
 
 
  .heroimage-main-div{
-    background-image: linear-gradient(to right, rgb(247, 247, 247) 10%, rgba(0, 0, 0, 0.048) ); 
-    height:100vh;
-    overflow: hidden;
-    
+    /* background-image: linear-gradient(to right, rgb(247, 247, 247) 10%, rgba(0, 0, 0, 0.048) ); 
+    height:auto;    */
 }
 
 .heroimage-taglines-div{
-    margin-top: 110px;
-    margin-left: 100px;
-    
+    margin-top: 200px;
 }
 
 .heroimage-maintaglines-div{
@@ -35,16 +31,18 @@
 
 .heroimage-maintext-p{
     /* border: 1px solid red; */
-    font-size: 85px;
+    font-size: 65px;
     font-family: 'Raleway';
-    line-height: 80px;
+    line-height: 70px;
     font-weight: bold;
     color: rgba(0, 0, 0, 0.801);
+    color: white;
 }
 
 .heroimage-subtext-p{
     font-size: 18px;
     color: rgba(31, 30, 30, 0.616);
+    color: white;
     font-family: 'Raleway';
     font-weight: bold;
     line-height: 30px;
@@ -121,6 +119,14 @@
     /* color: rgb(51, 145, 226); */
     animation:wordAnimate 0.8s;
     margin-left: 8px;
+}
+.intro__content__nav{
+  margin-top: 50px;
+}
+intro__content__nav a{
+ display: block;
+ border-box: 1px solid white;
+ padding: 10px;
 }
 
 @keyframes wordAnimate{

@@ -8,18 +8,18 @@ class Footer extends Component {
             <div className="footer">
                 <div className="footer-content container">
                  <div className="row">
-                   <div className="col-md-3 col-xs-12 col-sm-6">
+                   <div className="col-md-3 col-xs-12 col-sm-6 footer-item">
                         <h3 className="footer-item-heading">newInk Digital Solutions</h3>
-                        <p>We create possibilities for the connected world</p>
-                        <p>Build your Business with us</p>
+                        <p>We create possibilities for the connected world.</p>
+                        <p>Build your Business with us.</p>
                         <button>Lets Talk</button>
                     </div>
                     <div className="col-md-3 col-xs-12 col-sm-6 footer-item footer-item-explore">
                         <h4 className="footer-item-heading">Explore</h4>
                         <ul className="footer-ul">
-                          <li><a href="#">About Us</a></li><hr/>
-                          <li><a href="#">Our Services</a></li><hr/>
-                          <li><a href="#">Technologies</a></li><hr/>
+                          <li><a href="#">About Us</a></li>
+                          <li><a href="#">Our Services</a></li>
+                          <li><a href="#">Technologies</a></li>
                           <li><a href="#">Contact Us</a></li>
                         </ul>
                     </div>

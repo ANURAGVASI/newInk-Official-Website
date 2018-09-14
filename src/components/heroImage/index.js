@@ -12,12 +12,6 @@ class HeroImage extends React.Component{
         }
     }
 
-    componentWillUpdate(){
-        $( "#heroimage-maintext-wordchangerid" ).animate({
-            opacity: 0,
-          }, 0)
-    }
-
     componentDidUpdate(){
         $( "#heroimage-maintext-wordchangerid" ).animate({
             opacity: 1,
@@ -42,8 +36,10 @@ class HeroImage extends React.Component{
         const {heroImageWords, heroImageWordIndex } = this.state;
         return(
             <div className="heroimage-main-div" >
+                {/*  */}
                 <Header />
-                <div className="col-md-6 " >
+                <div className="heroimage-content-div container">
+                <div className="col-md-6">
                     <div className="heroimage-taglines-div" >
                         <div className="heroimage-maintaglines-div" >
                             <p className="heroimage-maintext-p " >
@@ -71,15 +67,21 @@ class HeroImage extends React.Component{
                             solutions to our valued clients overseas with complete contentment.
                         </p>
 
-                        <div className="heroimage-learnmore-div" >
+                        {/* <div className="heroimage-learnmore-div" >
                             <button className="btn btn-primary heroimage-learnmore-btn" >Learn more</button>
-                        </div>
+                        </div> */}
+                        <nav class="intro__content__nav btn-group btn-group--collapsed is-hidden--sm-down">
+                            <a class="btn btn--md btn--line" href="/#strategy">Strategy</a>
+                            <a class="btn btn--md btn--line" href="/#user-experience">User Experience</a>
+                            <a class="btn btn--md btn--line" href="/#web-design">Web Design</a>
+                            <a class="btn btn--md btn--line" href="/#marketing">Digital Marketing</a>
+                        </nav>
                     </div>
                 </div>
-                <div className="col-md-6 testmd"  >
+                {/* <div className="col-md-6 testmd"  >
                     <img className="heroimage-sideimage-img"    src={require("../../images/responsiveness2.gif")} />
                       
-                </div>
+                </div> */}
 
                 {/* <p className="heroimage-downarrow-p" ><i className="fa fa-angle-double-down" aria-hidden="true"></i></p> */}
 
@@ -91,6 +93,7 @@ class HeroImage extends React.Component{
                             this.changeWord(heroImageWordIndex)
                         }, 4000)
                    }
+                </div>
                 </div>
             </div>
         )
