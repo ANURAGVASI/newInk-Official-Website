@@ -5,3 +5,13 @@
 body{
     margin: 0px;
 }
+
+@font-face{
+    font-family: LatoFont;
+    src: url("./fonts/Lato/Lato-Light.ttf");
+}
+
+@font-face{
+    font-family: MontserratFont;
+    src: url("./fonts//Montserrat/Montserrat-Light.ttf");
+}

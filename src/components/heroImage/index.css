@@ -1,58 +1,54 @@
 
 
  .heroimage-main-div{
-    /* background-image: linear-gradient(to right, rgb(247, 247, 247) 10%, rgba(0, 0, 0, 0.048) ); 
-    height:auto;    */
+    background-image: url("../../images/hero-xl.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: fixed;
+    height: 100vh;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+.heroimage-content-div{
+    margin-left: 140px;
+    
 }
 
 .heroimage-taglines-div{
-    margin-top: 200px;
+    margin-top: 150px;
+    padding: 0px;
+    padding-right: 58vw;
 }
-
-.heroimage-maintaglines-div{
-    animation: testanimate 1s;
-}
-
-.p2{
-    animation: testanimate 1s;
-}
-
-.p3{
-    animation: testanimate 1s;
-}
-
-
-@keyframes testanimate{
-    from{opacity: 0; margin-left:-100px}
-    to{opacity: 1; margin-left: 0px}
-}
-
-
 
 .heroimage-maintext-p{
-    /* border: 1px solid red; */
-    font-size: 65px;
-    font-family: 'Raleway';
-    line-height: 70px;
-    font-weight: bold;
-    color: rgba(0, 0, 0, 0.801);
-    color: white;
+    font-size: 40px;
+    font-family: MontserratFont;
+    font-weight: 300;
+    line-height: 50px;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
 }
 
 .heroimage-subtext-p{
-    font-size: 18px;
-    color: rgba(31, 30, 30, 0.616);
-    color: white;
-    font-family: 'Raleway';
-    font-weight: bold;
-    line-height: 30px;
-    animation: testanimate4 1.3s;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    line-height: 35px;
+    font-family: LatoFont;
+    margin-top: 20px;
+    
 }
 
-@keyframes testanimate4{
-    from{opacity: 0; margin-top: 160px}
-    to{opacity: 1; margin-top: 0px}
+.heroimage-subtext-p-640media{
+    background-color: black;
+    color: white;
+    font-family: LatoFont;
+    padding: 20px;
+    font-size: 22px;
+    visibility: hidden;
 }
+
 
 .heroimage-learnmore-div{
     margin-top: 20px;
@@ -81,21 +77,6 @@
     box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.178);
 }
 
-.heroimage-sideimage-img{
-    display: block;
-    margin-left:auto;
-    margin-right:auto;
-    margin-top: 60px;
-    height: 500px;
-    width:550px;
-    animation: imageanimate 2s;
-}
-
-@keyframes imageanimate{
-    from {opacity: 0;}
-    to{opacity: 1}
-}
-
 .heroimage-downarrow-p{
     color: white;
     font-size: 40px;
@@ -114,20 +95,6 @@
 }
 
 
-.heroimage-maintext-wordchanger{
-    color: rgb(33, 209, 33);
-    /* color: rgb(51, 145, 226); */
-    animation:wordAnimate 0.8s;
-    margin-left: 8px;
-}
-.intro__content__nav{
-  margin-top: 50px;
-}
-intro__content__nav a{
- display: block;
- border-box: 1px solid white;
- padding: 10px;
-}
 
 @keyframes wordAnimate{
     from {opacity: 0;}
@@ -135,22 +102,37 @@ intro__content__nav a{
 }
 
 
+
+@media screen and (max-width: 1200px) {
+    .heroimage-taglines-div{
+        padding-right: 50vw;
+    }
+    .heroimage-subtext-p{
+        /* text-align: center; */
+        
+        font-size: 19px;
+    }
+}
+
 @media screen and (max-width: 992px) {
     .heroimage-main-div{
-        /* height: 80vh;
-        transform: scaleY(100px);
-        transition-duration: 1000; */
-        height: auto;
+        height: 500px;
     }
+    .heroimage-content-div{
+        margin-left: 50px;
+    }
+    .heroimage-taglines-div{
+        margin-top: 100px;  
+        padding-right: 45vw;
+    }
+    
     .heroimage-maintext-p{
-        text-align: center;
-        
+        font-size: 40px;
     }
 
     .heroimage-subtext-p{
-        /* padding-left:130px;
-        padding-right: 130px; */
-        text-align: center;
+        /* text-align: center; */
+        font-size: 18px;
     }
     .heroimage-learnmore-btn{
         display: block;
@@ -166,11 +148,36 @@ intro__content__nav a{
     }
 }
 
-@media screen and (max-width: 600px) {
-    .heroimage-main-div{
-        height: auto;
+@media screen and (max-width: 855px) {
+
+    .heroimage-taglines-div{
+        padding-right: 40vw;
     }
     .heroimage-maintext-p{
+        color: red;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .heroimage-subtext-p{
+        visibility: hidden;
+    }
+
+    .heroimage-subtext-p-640media{
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .heroimage-main-div{
+        height: 900px;
+    }
+    .heroimage-content-div{
+        margin-left: 10px;
+    }
+    .heroimage-maintext-p{
+        color: red;
         text-align: center;
         font-size: 65px;
         padding: 0px;

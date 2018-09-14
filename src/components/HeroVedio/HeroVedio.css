@@ -1,5 +1,7 @@
 .herovedio-main-div{
     position: absolute;
+    /* height: 100px; */
+
     left: 0;
     right: 0;
 }
@@ -7,3 +9,5 @@
 .herovedio-vedio{
     width:100%;
 }
+
+

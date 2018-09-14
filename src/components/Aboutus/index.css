@@ -17,6 +17,7 @@
     line-height: 50px;
     color: #292929ce;
     font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
     text-transform: uppercase;
     /* color: white; */
 }
@@ -26,6 +27,7 @@
     margin-top: 40px;
     padding:0 210px;
     font-family: 'Open Sans';
+    font-family: 'Lato';
     color: rgb(102, 102, 102);
     font-size: 16px;
     line-height: 30px;
