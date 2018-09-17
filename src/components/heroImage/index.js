@@ -10,7 +10,6 @@ class HeroImage extends React.Component{
             <div>
                 <div className="heroimage-main-div" >
                     {/*  */}
-                    {/* <Header /> */}
                     <div className="heroimage-content-div">
                         <div className="heroimage-taglines-div" >
                             <div className="heroimage-maintaglines-div" >
@@ -27,17 +26,27 @@ class HeroImage extends React.Component{
                             and web development services to our valued clients 
                             overseas with complete contentment.
                             </p>
-
                         </div>
+                        <div>
+                        <p className="heroimage-servienames-p" > 
+                            <span className="heroimage-serivicename-span" >UI/UX</span>
+                            <span className="heroimage-serivicename-span">Web Development</span>
+                            <span className="heroimage-serivicename-span">Mobile Development</span>
+                            <span className="heroimage-serivicename-span">SEO services</span>
+                        </p>
+                    </div>
                     </div>
                 </div>
-                <div>
+                <div >
                     <p className="heroimage-subtext-p-640media" > 
                         Bestowed with high professionalism, 
                         we are capable of offering incredible web design 
                         and web development services to our valued clients 
                         overseas with complete contentment.
                     </p>
+                    <div>
+                       
+                    </div>
                 </div>
             </div>
         )

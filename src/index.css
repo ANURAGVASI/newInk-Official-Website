@@ -15,3 +15,8 @@ body{
     font-family: MontserratFont;
     src: url("./fonts//Montserrat/Montserrat-Light.ttf");
 }
+
+@font-face{
+    font-family: LatoRegularFont;
+    src: url("./fonts//Lato//Lato-Regular.ttf");
+}

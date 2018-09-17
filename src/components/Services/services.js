@@ -24,10 +24,7 @@ class services extends Component {
     render() {
         return (
             <div>
-                hi
-                {data.map((serviceItem)=>{
-                   console.log(serviceItem);
-                })}
+               
             </div>
         );
     }
