@@ -9,7 +9,7 @@
     overflow: hidden;
 }
 
-.aboutus-leftheading-p{
+.aboutus-heading-p{
     text-align: center;
     font-size: 33px;
     padding: 0 300px;
@@ -22,11 +22,10 @@
     /* color: white; */
 }
 
-.aboutus-right-div{
+.aboutus-content-div{
     /* color: white; */
     margin-top: 40px;
     padding:0 210px;
-    font-family: 'Open Sans';
     font-family: 'Lato';
     color: rgb(102, 102, 102);
     font-size: 16px;
