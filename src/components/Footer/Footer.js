@@ -16,7 +16,7 @@ class Footer extends Component {
                         <h4 className="footer-item-heading">NewInk Digital Solutions</h4>
                         <p>We create possibilities for the connected world.</p>
                         <p>Build your Business with us.</p>
-                        <button>Lets Talk</button>
+                        {/* <button>Lets Talk</button> */}
                     </div>
                     
                     <div className="col-md-2 col-xs-12 col-sm-6 footer-item footer-item-explore">
@@ -25,7 +25,7 @@ class Footer extends Component {
                           <li><a href="#">About Us</a></li>
                           <li><a href="#">Our Services</a></li>
                           <li><a href="#">Technologies</a></li>
-                          <li><a href="#">Contact Us</a></li>
+                          <li><a href="#">Contact us</a></li>
                         </ul>
                     </div>
                     <div className="col-md-2 col-xs-12 col-sm-6 footer-item footer-social">
@@ -38,7 +38,7 @@ class Footer extends Component {
 					  </ul>
 			        </div>
                     <div className="col-md-2 col-xs-12 col-sm-6 footer-item footer-social">
-				      <h4 className="footer-item-heading">Contact Us</h4>
+				      <h4 className="footer-item-heading">Connect</h4>
 					  <ul class="footer-ul">
 						<li><i class="icon fa fa-location-arrow">&nbsp;&nbsp;</i>Hyderabad</li>
 						<li><i class="icon fa fa-phone">&nbsp;&nbsp;</i>+91-9948380255</li>

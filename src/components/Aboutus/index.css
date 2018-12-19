@@ -11,27 +11,26 @@
 
 .aboutus-heading-p{
     text-align: center;
-    font-size: 33px;
+    font-size: 43px;
     padding: 0 300px;
-    font-weight: 300 !important;
     line-height: 50px;
-    color: #292929ce;
     font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    
-    text-transform: uppercase;
-    /* color: white; */
+    font-family: SourceSansPro;
+    color: rgb(21, 25, 32);
+    letter-spacing: 0.4px;
 }
 
 .aboutus-content-div{
     /* color: white; */
     margin-top: 40px;
     padding:0 210px;
-    font-family: 'Lato';
-    color: rgb(102, 102, 102);
-    font-size: 16px;
+    font-family: SourceSansPro;
+    color:rgb(101, 101, 110);
+    font-size: 18px;
     line-height: 30px;
-    font-weight: 400;
     text-align: center;
+    box-sizing: border-box;
+    text-size-adjust: 100%;
 }
 
 .aboutus-getintouchbtn-btn{

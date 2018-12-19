@@ -21,7 +21,7 @@ class App extends Component {
           <div>
             <Route path="/about" render={(props) => (
               <React.Fragment>
-                  <WhyChooseUs/>
+                  {/* <WhyChooseUs/> */}
                   <Aboutus/>
               </React.Fragment>
             )}/>
