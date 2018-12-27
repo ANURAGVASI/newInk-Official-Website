@@ -1,0 +1,42 @@
+.connectus-main-div {
+  background-color: #425cbb;
+  display: flex;
+  justify-content: center;
+  height: 170px;
+  align-items: center;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+
+.connectus-text-p {
+  color: white;
+  font-size: 30px;
+  font-family: SourceSansPro;
+  text-align: center;
+  /* display: block; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.connectus-connect-btn {
+  border: 2px solid #94a6ec;
+  color: #eff2ff;
+  background: none;
+  border-radius: 100px;
+  padding: 10px 30px;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .connectus-text-p {
+    display: block;
+    font-size: 25px;
+  }
+  .connectus-connect-btn {
+    display: block;
+    margin: 10px auto 0px auto;
+  }
+}
