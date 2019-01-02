@@ -1,6 +1,6 @@
 .headermenu-main-div {
   margin: 0;
-  /* border: 1px solid red; */
+  background:transparent;
 }
 
 .headermenu-logo-div {
@@ -14,6 +14,7 @@
   display: none;
   /* border: 1px solid red; */
   font-size: 20px;
+  
 }
 
 .headermenu-menu-div {
@@ -25,13 +26,26 @@
 
 .headermenu-menu-a {
   text-decoration: none;
-  color: #282e3e;
-  font-family: SourceSansPro;
-  font-size: 17px;
+  font-size: 14px;
   padding: 0 20px;
+  color: white;
+
+cursor:
+pointer
+;
+font-family:
+MontserratFont
+;
+font-size:
+12px
+;
+letter-spacing:
+0.25px
+;
+
 }
 
-.headermenu-menu-link:hover {
+.headermenu-menu-a:hover {
   text-decoration: none;
 }
 
@@ -43,16 +57,22 @@
 }
 
 .headermenu-contactus-btn {
-  background-color: #e7bd15;
-  border: none;
-  padding: 10px 25px;
+  /* background-image: linear-gradient(to bottom right,#ff6206, #ff1048 ); */
+  /* background-color: #f22f46; */
+  background: transparent;
+  border: 1px solid white;
+  /* #ff0942 */
+  /* #ff6206 */
+  /* border: none; */
+  padding: 6px 17px;
   color: white;
   font-family: SourceSansPro;
-  font-size: 17px;
+  font-size: 15px;
   border-radius: 4.8px;
 }
 
 /* media queries */
+
 @media screen and (max-width: 992px) {
   .headermenu-contactus-div,
   .headermenu-menu-div {

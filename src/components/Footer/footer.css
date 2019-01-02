@@ -1,25 +1,13 @@
 :root {
-  --footer-text-color: #9599a3;
+  --footer-text-color: #aaa7a7;
   /* --footer-background-color:#282d33; */
   --footer-subtext-font-family: SourceSansPro;
 }
 
 .footer {
   /* background-image:linear-gradient(135deg,#374a5a,#0c1013); */
-  background-color: #1b1f28;
-  border: 1px solid #1b1f28;
-}
-
-.footer-heading-p {
-  color: white;
-  text-align: center;
-  /* font-family: 'Source Sans Pro'; */
-  font-family: var(--footer-subtext-font-family);
-  font-size: 40px;
-  line-height: 36px;
-  letter-spacing: 0.2px;
-  margin-top: 20px;
-  letter-spacing: 0.4px;
+  background-color: #161616;
+  border: 1px solid #161616;
 }
 
 .footer-item-heading {
@@ -29,7 +17,7 @@
   font-size: 16px;
   padding-bottom: 8.92px;
   letter-spacing: 0.2px;
-  color: white;
+  color: #d6d5d5;
 }
 
 .footer-content {
@@ -39,6 +27,7 @@
   margin-top: 70px;
   letter-spacing: 0.2px;
   font-size: 15px;
+  
 }
 .footer-item {
   text-align: left;
@@ -95,44 +84,7 @@
 .footer-ul hr {
   margin-top: 10px;
 }
-.footer-shedule-btn {
-  background-color: #4a90e2;
-  /* background: linear-gradient(90deg,#06a86a 0%,#06994b 100%);
-  background: linear-gradient(90deg,#f15252 0%,#e76a0a 100%); */
 
-  border-bottom-left-radius: 4.4px;
-  border-bottom-right-radius: 4.4px;
-  border-bottom-style: solid;
-  border-bottom-width: 0px;
-  border-left-style: solid;
-  border-left-width: 0px;
-  border-right-style: solid;
-  border-right-width: 0px;
-  border-top-left-radius: 4.4px;
-  border-top-right-radius: 4.4px;
-  border-top-style: solid;
-  border-top-width: 0px;
-  box-sizing: border-box;
-  color: rgb(255, 255, 255);
-  cursor: pointer;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  height: 40px;
-  line-height: 17px;
-  margin-bottom: 6.4px;
-  margin-right: 0px;
-  outline-color: rgb(255, 255, 255);
-  outline-style: none;
-  outline-width: 0px;
-  padding-bottom: 11px;
-  padding-left: 26px;
-  padding-right: 26px;
-  padding-top: 11px;
-  display: block;
-  margin: 0 auto;
-  margin-top: 30px;
-}
 
 @media screen and (max-width: 992px) {
   .footer-item {

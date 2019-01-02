@@ -18,7 +18,8 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <HeaderMenu />
+          {/* <HeaderMenu /> */}
+          <HeroImage />
           <Route
             path="/about"
             render={props => (
