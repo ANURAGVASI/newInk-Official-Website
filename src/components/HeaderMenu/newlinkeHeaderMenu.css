@@ -1,51 +1,69 @@
-.newlink-header-div{
-    height: 60px;
-    color: white;
-    text-align: center;
-    /* position: fixed; */
+.headermenu-main-div {
+  margin: 0;
+  /* border: 1px solid red; */
+}
+
+.headermenu-logo-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.headermenu-collapsemenu-a {
+  display: none;
+  /* border: 1px solid red; */
+  font-size: 20px;
+}
+
+.headermenu-menu-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.headermenu-menu-a {
+  text-decoration: none;
+  color: #282e3e;
+  font-family: SourceSansPro;
+  font-size: 17px;
+  padding: 0 20px;
+}
+
+.headermenu-menu-link:hover {
+  text-decoration: none;
+}
+
+.headermenu-contactus-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.headermenu-contactus-btn {
+  background-color: #e7bd15;
+  border: none;
+  padding: 10px 25px;
+  color: white;
+  font-family: SourceSansPro;
+  font-size: 17px;
+  border-radius: 4.8px;
+}
+
+/* media queries */
+@media screen and (max-width: 992px) {
+  .headermenu-contactus-div,
+  .headermenu-menu-div {
+    display: none;
+  }
+  .headermenu-logo-div {
+    justify-content: flex-start;
+  }
+  .headermenu-collapsemenu-a {
+    display: flex;
     width: 100%;
-    z-index: 99;
-}
-
-.header-item-span{
-    margin-left: 20px;
-}
-
-.logo-text{
-    color: black;
-}
-
-.menu-expand-btn-custom{
-    color: black;
-    border: 1px solid red;
-}
-
-.logo-link{
-    color: black;
-    font-size: 13px;
-    letter-spacing: 0.6px;
-    text-transform: uppercase;
-}
-
-/* to change defalut hover beahaviour of navbar in bootstrap */
-.nav>li>a:focus, .nav>li>a:hover {
-    text-decoration: none;
-    background-color: transparent !important;
-    color: rgb(235, 10, 10);
-}
-
-.menu-getintouch-btn{
-    margin-top: -6px ;
-    margin-right: 100px;
-    margin-left: 20px;
-    font-family: 'Raleway';
-    
-    /* height: 35px; */
-}
-
-
-@media screen and (max-width: 1000px) {
-    .menu-getintouch-btn{
-        margin-right: 70px;
-    }
+    justify-content: flex-end;
+  }
 }

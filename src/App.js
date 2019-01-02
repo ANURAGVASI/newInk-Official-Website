@@ -18,7 +18,8 @@ class App extends Component {
     return (
       <Router>
         <div>
-          {/* <Route
+          <HeaderMenu />
+          <Route
             path="/about"
             render={props => (
               <React.Fragment>
@@ -26,7 +27,6 @@ class App extends Component {
               </React.Fragment>
             )}
           />
-          <Services /> */}
           <ConnectUs />
           <Footer />
         </div>

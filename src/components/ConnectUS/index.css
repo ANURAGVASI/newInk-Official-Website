@@ -1,8 +1,12 @@
 .connectus-main-div {
   background-color: #425cbb;
+  background-color: #2e7eb4;
+  background-color: #ddbe43;
+  /* background-color: #e1b931; */
+  /* background-color: #04111f; */
   display: flex;
   justify-content: center;
-  height: 170px;
+  height: 140px;
   align-items: center;
   /* flex-direction: column; */
   flex-wrap: wrap;
@@ -10,7 +14,7 @@
 
 .connectus-text-p {
   color: white;
-  font-size: 30px;
+  font-size: 33px;
   font-family: SourceSansPro;
   text-align: center;
   /* display: block; */
@@ -21,7 +25,9 @@
 
 .connectus-connect-btn {
   border: 2px solid #94a6ec;
-  color: #eff2ff;
+  border: 2px solid #88bcdf;
+  border: 2px solid #fae388;
+  color: white;
   background: none;
   border-radius: 100px;
   padding: 10px 30px;
