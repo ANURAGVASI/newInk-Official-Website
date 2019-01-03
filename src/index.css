@@ -15,7 +15,6 @@ body {
   src: url("./fonts//Montserrat/Montserrat-Regular.ttf");
 }
 
-
 @font-face {
   font-family: MontserratFontLight;
   src: url("./fonts//Montserrat/Montserrat-Light.ttf");
@@ -23,6 +22,11 @@ body {
 
 @font-face {
   font-family: MontserratFontBold;
+  src: url("./fonts//Montserrat/Montserrat-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: MontserratFontSemiBold;
   src: url("./fonts//Montserrat/Montserrat-SemiBold.ttf");
 }
 

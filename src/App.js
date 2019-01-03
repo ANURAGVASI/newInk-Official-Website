@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 // components import
-import HeaderMenu from "./components/HeaderMenu/newlinkHeaderMenu";
+import Header from "./components/HeaderMenu/newlinkHeaderMenu";
 import HeroImage from "./components/heroImage/index";
 import HeroVedio from "./components/HeroVedio/HeroVedio";
 import Services from "./components/Services/index";
@@ -18,7 +18,7 @@ class App extends Component {
     return (
       <Router>
         <div>
-          {/* <HeaderMenu /> */}
+          <Header />
           <HeroImage />
           <Route
             path="/about"
@@ -28,7 +28,7 @@ class App extends Component {
               </React.Fragment>
             )}
           />
-          <ConnectUs />
+          {/* <ConnectUs /> */}
           <Footer />
         </div>
       </Router>

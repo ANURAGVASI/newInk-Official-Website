@@ -1,40 +1,31 @@
 .connectus-main-div {
-  background-color: #425cbb;
-  background-color: #2e7eb4;
-  background-color: #a76b18;
-  /* background-color: #e1b931;
-  background-color: #f22f46;; */
-  /* background-image: linear-gradient(to bottom right,#ff6206, #ff6206 ); */
+  background-color: #141414;
   display: flex;
   justify-content: center;
   height: 140px;
   align-items: center;
-  /* flex-direction: column; */
   flex-wrap: wrap;
 }
 
 .connectus-text-p {
-  color: white;
-  font-size: 33px;
-  font-family: SourceSansPro;
-  text-align: center;
-  /* display: block; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: rgb(235, 235, 235);
+  display: table-cell;
+  font-family: MontserratFont;
+  font-size: 15px;
 }
 
 .connectus-connect-btn {
-  border: 2px solid #94a6ec;
-  /* border: 2px solid #88bcdf; */
-  border: 2px solid #fae388;
-  color: white;
-  background: none;
-  border-radius: 100px;
-  padding: 10px 30px;
-  font-size: 13px;
-  letter-spacing: 1.5px;
-  margin-left: 20px;
+  color: rgb(235, 235, 235);
+  /* color: white; */
+  font-family: MontserratFont;
+  font-size: 12px;
+  /* line-height: 65px; */
+  margin-top: 30px;
+  border-radius: 4px;
+  border: 1px solid rgb(235, 235, 235);
+  /* box-shadow: rgb(153, 153, 153) 0px 0px 0px 0px; */
+  background: transparent;
+  padding: 9px 25px;
 }
 
 @media screen and (max-width: 992px) {

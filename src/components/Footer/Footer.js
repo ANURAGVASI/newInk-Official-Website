@@ -12,7 +12,6 @@ class Footer extends Component {
             <h4 className="footer-item-heading">NewInk Digital Solutions</h4>
             <p>We create possibilities for the connected world.</p>
             <p>Build your Business with us.</p>
-            {/* <button>Lets Talk</button> */}
           </div>
 
           <div className="col-md-2 col-xs-12 col-sm-6 footer-item footer-item-explore">
@@ -74,12 +73,9 @@ class Footer extends Component {
           </div>
           <div className="col-md-1" />
         </div>
-        {/* <hr/> */}
         <div className="footer-copyright">
           <p>COPYRIGHT © 2018 NewInk Technologies, inc. All Rights Reserved</p>
-          {/* <p>ALL RIGHTS RESERVED.</p> */}
         </div>
-        {/* </div> */}
       </div>
     );
   }

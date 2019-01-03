@@ -1,55 +1,49 @@
-
- .heroimage-main-div{
-    background-image: url("../../images/homepage-3-slider-img-1.jpg");
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    filter: brightness(50%)
+.heroimage-main-div {
+  /* background-image: url(""); */
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../images/homepage-3-slider-img-3.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.heroimage-header-div{
-    position: absolute;
-    width: 100%;
-    top: 0%;
+.heroimage-text-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  top: 0%;
 }
 
-.heroimage-text-div{
-    display: flex;
-    justify-content: center ;
-    align-items: center;
-    flex-direction: column;
-    height: 100%;
-    position: absolute;
-    width: 100%;
-    top: 0%;
+.heroimage-subtext-p {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 70px;
+  letter-spacing: 2.1px;
 }
 
-.heroimage-subtext-p{
-    color: rgb(228, 220, 220);
-    font-family: MontserratFontBold;
-    font-size: 12px;
-    line-height: 65px;
-    letter-spacing: 2px;
+.heroimage-maintext-p {
+  color: white;
+  font-family: MontserratFontBold;
+  font-size: 70px;
+  line-height: 65px;
+  letter-spacing: -1px;
 }
 
-.heroimage-maintext-p{
-    color: white;
-    font-family: MontserratFontBold;
-    font-size: 70px;
-    line-height: 65px;
-    letter-spacing: -1px;
-}
-
-.heroimage-connect-btn{
-    color: white;
-    font-family: MontserratFontBold;
-    font-size: 12px;
-    /* line-height: 65px; */
-    margin-top: 30px;
-    border-radius: 4px;
-    border:2px solid white;
-    box-shadow: rgb(153, 153, 153) 0px 0px 0px 0px;
-    background: transparent;
-    padding: 9px 25px;
+.heroimage-connect-btn {
+  color: white;
+  font-family: MontserratFontBold;
+  font-size: 12px;
+  /* line-height: 65px; */
+  margin-top: 33px;
+  border-radius: 4px;
+  border: 1px solid white;
+  box-shadow: rgb(153, 153, 153) 0px 0px 0px 0px;
+  background: transparent;
+  padding: 9px 26px;
 }
