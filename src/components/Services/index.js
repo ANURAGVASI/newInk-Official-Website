@@ -29,7 +29,10 @@ class Services extends React.Component {
         <div className="services-servicelist-div col-md-7">
           <div className="testclass row">
             <div className="services-service-div col-md-5">
-              <div><FaDesktop className="services-serviceicon-ri" /></div>
+              <div>
+                {/* <FaDesktop className="services-serviceicon-ri" /> */}
+                <img className="services-serviceicon-ri" height="50px" width="50px" src={require("../../images/a.png")} />
+              </div>
               <p className="services-servicename-p" >Web Development</p>
               <p className="service-servicedesc-p" >
                 Lorem Ipsum is simply text the printing and typesetting standard industry.
@@ -40,8 +43,11 @@ class Services extends React.Component {
               </p> */}
             </div>
             <div className="services-service-div col-md-5">
-              <div><FaDesktop className="services-serviceicon-ri" /></div>
-              <p className="services-servicename-p" >Web Development</p>
+              <div>
+                {/* <FaDesktop className="services-serviceicon-ri" /> */}
+                <img className="services-serviceicon-ri" height="50px" width="50px" src={require("../../images/b.png")} />
+              </div>
+              <p className="services-servicename-p" >Mobile Development</p>
               <p className="service-servicedesc-p" >
                 Lorem Ipsum is simply text the printing and typesetting standard industry.
                 Lorem Ipsum is simply text the printing and typesetting standard industry.
@@ -53,8 +59,11 @@ class Services extends React.Component {
           </div>
           <div className="testclass row">
             <div className="services-service-div col-md-5">
-              <div><FaDesktop className="services-serviceicon-ri" /></div>
-              <p className="services-servicename-p" >Web Development</p>
+              <div>
+                {/* <FaDesktop className="services-serviceicon-ri" /> */}
+                <img className="services-serviceicon-ri" height="50px" width="50px" src={require("../../images/c.svg")} />
+              </div>
+              <p className="services-servicename-p" >UI/UX Development</p>
               <p className="service-servicedesc-p" >
                 Lorem Ipsum is simply text the printing and typesetting standard industry.
                 Lorem Ipsum is simply text the printing and typesetting standard industry.
@@ -64,8 +73,11 @@ class Services extends React.Component {
               </p> */}
             </div>
             <div className="services-service-div col-md-5">
-              <div ><FaDesktop className="services-serviceicon-ri" /></div>
-              <p className="services-servicename-p" >Web Development</p>
+              <div>
+                {/* <FaDesktop className="services-serviceicon-ri" /> */}
+                <img className="services-serviceicon-ri" height="50px" width="50px" src={require("../../images/d.svg")} />
+              </div>
+              <p className="services-servicename-p" >Cloud Services</p>
               <p className="service-servicedesc-p" >
                 Lorem Ipsum is simply text the printing and typesetting standard industry.
                 Lorem Ipsum is simply text the printing and typesetting standard industry.
