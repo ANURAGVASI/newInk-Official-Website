@@ -3,6 +3,7 @@
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../../images/homepage-3-slider-img-3.jpg");
   height: 100vh;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -46,4 +47,34 @@
   box-shadow: rgb(153, 153, 153) 0px 0px 0px 0px;
   background: transparent;
   padding: 9px 26px;
+}
+
+@media screen and (max-width: 992px) {
+  .heroimage-maintext-p {
+    font-size: 65px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .heroimage-maintext-p {
+    font-size: 55px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .heroimage-maintext-p {
+    font-size: 45px;
+    line-height: 40px;
+  }
+  .heroimage-connect-btn {
+    font-size: 10px;
+    padding: 7px 21px;
+    margin-top: 25px;
+  }
+  .heroimage-subtext-p {
+    font-size: 10px;
+    line-height: 50px;
+  }
 }

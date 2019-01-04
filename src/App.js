@@ -20,6 +20,7 @@ class App extends Component {
         <div>
           <Header />
           <HeroImage />
+          <Services />
           <Route
             path="/about"
             render={props => (
@@ -29,7 +30,7 @@ class App extends Component {
             )}
           />
           {/* <ConnectUs /> */}
-          <Footer />
+          {/* <Footer /> */}
         </div>
       </Router>
     );
