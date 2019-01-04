@@ -15,7 +15,7 @@
   width: 100%;
   z-index: 99;
   height: 80px;
-  animation: example2 0.4s;
+
 }
 
 @keyframes example2 {

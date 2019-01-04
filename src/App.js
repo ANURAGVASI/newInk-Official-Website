@@ -21,6 +21,7 @@ class App extends Component {
           <Header />
           <HeroImage />
           <Services />
+          {/* <WhyChooseUs /> */}
           <Route
             path="/about"
             render={props => (

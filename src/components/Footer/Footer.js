@@ -18,16 +18,16 @@ class Footer extends Component {
             <h4 className="footer-item-heading">Explore</h4>
             <ul className="footer-ul">
               <li>
-                <a href="#">About Us</a>
+                <a >About Us</a>
               </li>
               <li>
-                <a href="#">Our Services</a>
+                <a >Our Services</a>
               </li>
               <li>
-                <a href="#">Technologies</a>
+                <a >Technologies</a>
               </li>
               <li>
-                <a href="#">Contact us</a>
+                <a >Contact us</a>
               </li>
             </ul>
           </div>
@@ -35,22 +35,22 @@ class Footer extends Component {
             <h4 className="footer-item-heading">Follow Us</h4>
             <ul class="footer-ul">
               <li>
-                <a href="#">
+                <a >
                   <i class="icon fa fa-twitter">&nbsp;&nbsp;</i>Twitter
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a >
                   <i class="icon fa fa-facebook">&nbsp;&nbsp;</i>Facebook
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a >
                   <i class="icon fa fa-instagram">&nbsp;&nbsp;</i>Instagram
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a >
                   <i class="icon fa fa-github">&nbsp;&nbsp;</i>Github
                 </a>
               </li>
