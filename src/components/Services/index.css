@@ -78,9 +78,9 @@
 
 .services-service-div:hover {
   /* border: 1px solid rgb(255, 33, 79); */
-  color: rgb(201, 201, 201);
+  /* color: rgb(201, 201, 201);
   background-color: #222222;
-  animation: 0.5s hoverBackground;
+  animation: 0.5s hoverBackground; */
 }
 
 @keyframes hoverBackground {

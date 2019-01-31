@@ -12,6 +12,7 @@ import Footer from "./components/Footer/Footer";
 import Aboutus from "./components/Aboutus/index";
 import ContactForm from "./components/ContactForm/ContactForm";
 import ConnectUs from "./components/ConnectUS/index";
+import JoiningCircles from "./components/test/index";
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
           <Header />
           <HeroImage />
           <Services />
+          <JoiningCircles />
           {/* <WhyChooseUs /> */}
           <Route
             path="/about"
