@@ -1,0 +1,98 @@
+:root {
+  --footer-text-color: #c5c3c3;
+  /* --footer-background-color:#282d33; */
+  --footer-subtext-font-family: SourceSansPro;
+}
+
+.footer {
+  /* background-image:linear-gradient(135deg,#374a5a,#0c1013); */
+  background-color: #0a0d0e;
+  /* border: 1px solid #0a0d0e; */
+  height: 100%;
+}
+
+.footer-item-heading {
+  border-bottom-color: rgb(50, 58, 78);
+  border-bottom-style: solid;
+  border-bottom-width: 0.997596px;
+  font-size: 16px;
+  padding-bottom: 8.92px;
+  letter-spacing: 0.2px;
+  color: #c7c3c3;
+}
+
+.footer-content {
+  width: 100%;
+  font-family: var(--footer-subtext-font-family);
+  color: var(--footer-text-color);
+  letter-spacing: 0.2px;
+  font-size: 15px;
+  padding-top: 80px;
+}
+.footer-item {
+  text-align: left;
+  margin-left: 20px;
+}
+.footer-item-explore li {
+  color: var(--footer-text-color);
+}
+.footer-item-explore li:not(:last-child) {
+  padding-bottom: 18px;
+}
+.footer-ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.footer-ul li {
+  color: var(--footer-text-color);
+  font-size: 15.5px;
+  margin-top: -1px;
+}
+.footer-ul li a:link {
+  color: var(--footer-text-color);
+  text-decoration: none;
+}
+.footer-ul li a:visited {
+  color: var(--footer-text-color);
+  text-decoration: none;
+}
+.footer-social li {
+  margin-bottom: 15px;
+}
+.footer-ul .icon {
+  font-size: 20px;
+}
+.fa-twitter:hover {
+  color: #429cd6;
+}
+.fa-facebook:hover {
+  color: #3a589d;
+}
+.fa-instagram:hover {
+  color: #ed4852;
+}
+
+.footer-copyright {
+  text-align: center;
+  color: var(--footer-text-color);
+  margin-top: 60px;
+  margin-bottom: 50px;
+  font-size: 13.2px;
+  letter-spacing: 0.2px;
+  /* border: 1px solid red; */
+}
+
+.footer-ul hr {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .footer-item {
+    padding-left: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer-item {
+    padding: 0px;
+  }
+}

@@ -1,0 +1,11 @@
+.contact-form-container{
+    margin-bottom: 20px;
+}
+.contact-form-header{
+    text-align: center;
+}
+.contact-form-card-left{
+    height: 500px;
+    background-image: linear-gradient(to right, rgb(247, 247, 247) 10%, rgba(0, 0, 0, 0.048) ); 
+    color: black;
+}

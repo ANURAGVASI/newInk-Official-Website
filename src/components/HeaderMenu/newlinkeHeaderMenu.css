@@ -1,58 +1,129 @@
-.newlink-header-div{
-    height: 60px;
-    color: white;
-    text-align: center;
-    position: fixed;
-    width: 100%;
+.headermenu-main-div {
+  margin: 0;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  height: 80px;
+}
+
+/* animate div 1 transperent background */
+.headermenu-main-div-1 {
+  margin: 0;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  height: 80px;
+
+}
+
+@keyframes example2 {
+  from {
     background-color: black;
+    height: 60px;
+  }
+  to {
+    background-color: initial;
+    height: 80px;
+  }
 }
 
-.header-item-span{
-    margin-left: 20px;
+/* animate div 2 balck background */
+.headermenu-main-div-2 {
+  margin: 0;
+  background-color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  height: 60px;
+  animation: example 0.4s;
 }
 
-.test{
-    height: 1200px;
+@keyframes example {
+  from {
+    background-color: transparent;
+    height: 80px;
+  }
+  to {
+    background-color: black;
+    height: 60px;
+  }
 }
 
-.logo-text{
-    color: white;
+/* background color on scroll */
+.headermenu-main-div {
+  margin: 0;
+  background: transparent;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
 }
 
-.menu-expand-btn-custom{
-    color: black;
-    border: 1px solid red;
+.headermenu-logo-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
-.logo-link{
-    color: white;
-    font-size: 13px;
-    letter-spacing: 0.7px;
-    font-weight: 500;
-    text-transform: uppercase;
+.headermenu-logo-a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
 }
 
-/* to change defalut hover beahaviour of navbar in bootstrap */
-.nav>li>a:focus, .nav>li>a:hover {
-    text-decoration: none;
-    background-color: transparent !important;
-    color: white;
+.headermenu-logo-a:hover {
+  text-decoration: none;
 }
 
-.menu-getintouch-btn{
-    margin-top: -6px ;
-    margin-right: 100px;
-    margin-left: 20px;
-    font-family: 'Raleway';
-    /* height: 35px; */
+.headermenu-collapsemenu-a {
+  display: none;
+  /* border: 1px solid red; */
+  font-size: 20px;
 }
 
-.test{
-    height: 1000px;
+.headermenu-menu-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
-@media screen and (max-width: 1000px) {
-    .menu-getintouch-btn{
-        margin-right: 70px;
-    }
+.headermenu-menu-a {
+  text-decoration: none;
+  padding: 0 20px;
+  color: white;
+  cursor: pointer;
+  font-family: MontserratFontBold;
+  font-size: 12px;
+  letter-spacing: 0.18px;
+}
+
+.headermenu-menu-a:hover {
+  text-decoration: none;
+}
+
+.headermenu-contactus-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 992px) {
+  .headermenu-contactus-div,
+  .headermenu-menu-div {
+    display: none;
+  }
+  .headermenu-logo-div {
+    justify-content: flex-start;
+  }
+  .headermenu-collapsemenu-a {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
 }

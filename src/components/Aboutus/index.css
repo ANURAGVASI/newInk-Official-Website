@@ -1,0 +1,54 @@
+.aboutus-main-div {
+  margin: 0;
+}
+
+.aboutus-submain-div {
+  /* margin-top: 80px; */
+  /* margin-bottom: 80px; */
+  overflow: hidden;
+}
+
+.aboutus-heading-p {
+  text-align: center;
+  font-size: 43px;
+  padding: 0 300px;
+  line-height: 50px;
+  font-family: SourceSansPro;
+  color: rgb(21, 25, 32);
+  letter-spacing: 0.4px;
+}
+
+.aboutus-content-div {
+  /* color: white; */
+  margin-top: 40px;
+  padding: 0 210px;
+  font-family: SourceSansPro;
+  color: rgb(101, 101, 110);
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  text-size-adjust: 100%;
+}
+
+/* .aboutus-getintouchbtn-btn {
+  display: block;
+  margin: 0 auto;
+  padding: 12px 50px;
+  font-size: 16px;
+  font-family: "Raleway";
+  margin-top: 70px;
+  margin-bottom: 70px;
+  border: none;
+   
+    background-color: #47b475;
+    font-size: 16px;
+    color: white;
+    font-family: 'Raleway';
+
+    box-shadow: 2px 2px 10px rgba(0,0,0,.3);
+} */
+
+.aboutus-getintouchbtn-btn:hover {
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+}
