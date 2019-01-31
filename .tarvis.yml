@@ -1,0 +1,10 @@
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - docker build -t vasianurag/newink-dev -f dockerfile.dev .
+
+script:
+  - docker run vasianurag/newink-dev npm run test -- --coverage
