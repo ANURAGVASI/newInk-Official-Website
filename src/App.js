@@ -22,7 +22,7 @@ class App extends Component {
           <Header />
           <HeroImage />
           <Services />
-          <JoiningCircles />
+          {/* <JoiningCircles /> */}
           {/* <WhyChooseUs /> */}
           <Route
             path="/about"
