@@ -8,3 +8,16 @@ before_install:
 
 script:
   - docker run vasianurag/newink-dev npm run test -- --coverage
+
+deploy:
+  provider: elasticbeanstalk
+  access_key_id:
+    secure: "$AWS_ACCESS_KEY_ELASTICBEANSTALK"
+  secret_access_key:
+    secure: "$AWS_SECRET_ACCESS_KEY_ELASTICBEANSTALK"
+  region: "ap-south-1"
+  app: "newink-website"
+  env: "newink-websote-env"
+  bucket_name: "elasticbeanstalk-ap-south-1-690896776770"
+  on:
+    branch: master
